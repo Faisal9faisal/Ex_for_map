@@ -1,14 +1,14 @@
 fun main(args: Array<String>) {
-    val nameOclasses = mutableMapOf<String, String>("class1" to "Math", "class2" to "History", "class3" to "english", "class4" to "islamic")
-    println(nameOclasses)
-    nameOclasses.put("class5","Kotlin") // add class of Islamic here
+    val nameOfclasses = mutableMapOf<String, String>("class1" to "Math", "class2" to "History", "class3" to "english", "class4" to "islamic")
+    println(nameOfclasses)
+    nameOfclasses.put("class5","Kotlin") // add class of Islamic here
 
-    println(nameOclasses)
-    println(nameOclasses.containsKey("class2"))
-    println(nameOclasses.containsValue("class2"))
-    println(nameOclasses)   // eating on value here
-    nameOclasses.remove("class4")
-    println(nameOclasses) // here i remove class4
+    println(nameOfclasses)
+    println(nameOfclasses.containsKey("class2"))
+    println(nameOfclasses.containsValue("class2"))
+    println(nameOfclasses)   // eating on value here
+    nameOfclasses.remove("class4")
+    println(nameOfclasses) // here i remove class4
 
 
 }
